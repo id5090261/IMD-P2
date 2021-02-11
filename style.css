@@ -54,14 +54,14 @@ a {
     margin-right: 100px;
 }
 .s-cont input {
-padding: 10px;
-border-radius: 10px;
-border: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
 }
 .s-cont button{
-padding: 10px;
-border-radius: 10px;
-border: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
 }
 #logo {
     float: left;
@@ -107,18 +107,36 @@ border: none;
 .people {
     margin: auto;
     width: 900px;
+    padding-left: 20px;
 }
 .person{
-background-color: #e1e1e1;
-border-radius: 10px;
-padding: 40px;
-width: 320px;
-display: inline-block;
-margin:50px 10px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    padding: 40px;
+    width: 320px;
+    display: inline-block;
+    margin:80px 10px;
+}
+.person h2{
+    color: #0071e29c;
 }
 .person img{
     height: 200px;
-    clip-path: circle(60px at center);
-    margin: 0 auto;
-    margin-top: -45%;
+    clip-path: circle(100px at center);
+    margin-top: -45%;   
+    margin-left: 50px;
+}
+.person p{
+    padding: 15px 0;
+    line-height: 1.5;
+}
+.person span{
+    color: #0163c5;
+}
+footer {
+    background-color: #b1b1b1;
+    padding: 10px;
+}
+footer p{
+    font-weight: 600;
 }
