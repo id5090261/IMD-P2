@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: #eee;
+    font-weight: 400;
+}
+address {
+    background-color: #b1b1b1;
+    padding: 10PX 0 10PX 20PX;
+    font-style: normal;
+    font-size: 12px;
+}
+img {
+    height: 50px;
+    align-content: center;
+}
+.menu {
+    background-color: #e1e1e1;
+    padding: 30px;
+}
+.menu li {
+    display: inline-block;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    padding-right: 20px;
+}
+#login {
+    float: right;
+    display: flex;
+    margin-top: 28px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+#register a {
+    background-color: #0071e29c;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+    color: #383838;
+}
+.s-cont {
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.s-cont input {
+padding: 10px;
+border-radius: 10px;
+border: none;
+}
+.s-cont button{
+padding: 10px;
+border-radius: 10px;
+border: none;
+}
+#logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container {
+    background-color: ;
+}
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 600px;
+    margin: 100px auto 20px auto;
+}
+.container p {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    line-height: 1.5;
+    padding: 0 450px;
+}
+.container a{
+    padding: 15px;
+    background-color: #0071e29c;
+    border-radius: 10px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 500;;
+}
+#ourteam img {
+    height: 350px;
+    margin: 50px auto;
+    padding: 0 200px;
+}
+.ourteaminfo h2{
+    text-align: center;
+    padding: 50px 300px;
+    font-size: 30px;
+}
+.people {
+    margin: auto;
+    width: 900px;
+}
+.person{
+background-color: #e1e1e1;
+border-radius: 10px;
+padding: 40px;
+width: 320px;
+display: inline-block;
+margin:50px 10px;
+}
+.person img{
+    height: 200px;
+    clip-path: circle(60px at center);
+    margin: 0 auto;
+    margin-top: -45%;
+}
